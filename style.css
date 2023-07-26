@@ -11,7 +11,7 @@
     margin-left: 600px;
 }
 .search {
-    display: block;
+    display: flex;
     margin-left: 530px;
     margin-bottom: 150px;
 }
@@ -58,4 +58,23 @@ body {
 .description {
     text-transform: capitalize;
     font-size: large;
+}
+@media only screen and (max-width:600px){
+    body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+    .card{
+        
+        margin-left: 230px;
+    }
+    .search{
+        margin-left: 230px;
+    }
+    .search-box{
+        width: 40vh;
+    }
 }
